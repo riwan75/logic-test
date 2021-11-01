@@ -1,0 +1,13 @@
+const binaryArrayToNumber = (arr) => {
+  result = 0;
+  result = arr.join("");
+  result = parseInt(result, 2);
+  return result;
+};
+
+// const binaryArrayToNumber = (arr) => parseInt(arr.join(""), 2);
+
+console.log(binaryArrayToNumber([0, 0, 0, 1])); // 1
+console.log(binaryArrayToNumber([0, 0, 1, 0])); // 2
+console.log(binaryArrayToNumber([1, 1, 1, 1])); // 15
+console.log(binaryArrayToNumber([0, 1, 1, 0])); // 6
